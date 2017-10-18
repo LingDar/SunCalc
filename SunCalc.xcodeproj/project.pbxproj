@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB58C9231F979F3400A41E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C9221F979F3400A41E7D /* AppDelegate.swift */; };
+		AB58C9251F979F3400A41E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C9241F979F3400A41E7D /* ViewController.swift */; };
+		AB58C9281F979F3400A41E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58C9261F979F3400A41E7D /* Main.storyboard */; };
+		AB58C92B1F979F3400A41E7D /* SunCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB58C9291F979F3400A41E7D /* SunCalc.xcdatamodeld */; };
+		AB58C92D1F979F3400A41E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB58C92C1F979F3400A41E7D /* Assets.xcassets */; };
+		AB58C9301F979F3400A41E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58C92E1F979F3400A41E7D /* LaunchScreen.storyboard */; };
+		AB58C93B1F979F3400A41E7D /* SunCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C93A1F979F3400A41E7D /* SunCalcTests.swift */; };
+		AB58C9461F979F3400A41E7D /* SunCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C9451F979F3400A41E7D /* SunCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB58C9371F979F3400A41E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB58C9171F979F3300A41E7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB58C91E1F979F3400A41E7D;
+			remoteInfo = SunCalc;
+		};
+		AB58C9421F979F3400A41E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB58C9171F979F3300A41E7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB58C91E1F979F3400A41E7D;
+			remoteInfo = SunCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB58C91F1F979F3400A41E7D /* SunCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58C9221F979F3400A41E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB58C9241F979F3400A41E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB58C9271F979F3400A41E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB58C92A1F979F3400A41E7D /* SunCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SunCalc.xcdatamodel; sourceTree = "<group>"; };
+		AB58C92C1F979F3400A41E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB58C92F1F979F3400A41E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB58C9311F979F3400A41E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58C9361F979F3400A41E7D /* SunCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58C93A1F979F3400A41E7D /* SunCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCalcTests.swift; sourceTree = "<group>"; };
+		AB58C93C1F979F3400A41E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58C9411F979F3400A41E7D /* SunCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58C9451F979F3400A41E7D /* SunCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCalcUITests.swift; sourceTree = "<group>"; };
+		AB58C9471F979F3400A41E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB58C91C1F979F3400A41E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58C9331F979F3400A41E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58C93E1F979F3400A41E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB58C9161F979F3300A41E7D = {
+			isa = PBXGroup;
+			children = (
+				AB58C9211F979F3400A41E7D /* SunCalc */,
+				AB58C9391F979F3400A41E7D /* SunCalcTests */,
+				AB58C9441F979F3400A41E7D /* SunCalcUITests */,
+				AB58C9201F979F3400A41E7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB58C9201F979F3400A41E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB58C91F1F979F3400A41E7D /* SunCalc.app */,
+				AB58C9361F979F3400A41E7D /* SunCalcTests.xctest */,
+				AB58C9411F979F3400A41E7D /* SunCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB58C9211F979F3400A41E7D /* SunCalc */ = {
+			isa = PBXGroup;
+			children = (
+				AB58C9221F979F3400A41E7D /* AppDelegate.swift */,
+				AB58C9241F979F3400A41E7D /* ViewController.swift */,
+				AB58C9261F979F3400A41E7D /* Main.storyboard */,
+				AB58C92C1F979F3400A41E7D /* Assets.xcassets */,
+				AB58C92E1F979F3400A41E7D /* LaunchScreen.storyboard */,
+				AB58C9311F979F3400A41E7D /* Info.plist */,
+				AB58C9291F979F3400A41E7D /* SunCalc.xcdatamodeld */,
+			);
+			path = SunCalc;
+			sourceTree = "<group>";
+		};
+		AB58C9391F979F3400A41E7D /* SunCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB58C93A1F979F3400A41E7D /* SunCalcTests.swift */,
+				AB58C93C1F979F3400A41E7D /* Info.plist */,
+			);
+			path = SunCalcTests;
+			sourceTree = "<group>";
+		};
+		AB58C9441F979F3400A41E7D /* SunCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB58C9451F979F3400A41E7D /* SunCalcUITests.swift */,
+				AB58C9471F979F3400A41E7D /* Info.plist */,
+			);
+			path = SunCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB58C91E1F979F3400A41E7D /* SunCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58C94A1F979F3400A41E7D /* Build configuration list for PBXNativeTarget "SunCalc" */;
+			buildPhases = (
+				AB58C91B1F979F3400A41E7D /* Sources */,
+				AB58C91C1F979F3400A41E7D /* Frameworks */,
+				AB58C91D1F979F3400A41E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunCalc;
+			productName = SunCalc;
+			productReference = AB58C91F1F979F3400A41E7D /* SunCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB58C9351F979F3400A41E7D /* SunCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58C94D1F979F3400A41E7D /* Build configuration list for PBXNativeTarget "SunCalcTests" */;
+			buildPhases = (
+				AB58C9321F979F3400A41E7D /* Sources */,
+				AB58C9331F979F3400A41E7D /* Frameworks */,
+				AB58C9341F979F3400A41E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB58C9381F979F3400A41E7D /* PBXTargetDependency */,
+			);
+			name = SunCalcTests;
+			productName = SunCalcTests;
+			productReference = AB58C9361F979F3400A41E7D /* SunCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB58C9401F979F3400A41E7D /* SunCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58C9501F979F3400A41E7D /* Build configuration list for PBXNativeTarget "SunCalcUITests" */;
+			buildPhases = (
+				AB58C93D1F979F3400A41E7D /* Sources */,
+				AB58C93E1F979F3400A41E7D /* Frameworks */,
+				AB58C93F1F979F3400A41E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB58C9431F979F3400A41E7D /* PBXTargetDependency */,
+			);
+			name = SunCalcUITests;
+			productName = SunCalcUITests;
+			productReference = AB58C9411F979F3400A41E7D /* SunCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB58C9171F979F3300A41E7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = BDKCreate;
+				TargetAttributes = {
+					AB58C91E1F979F3400A41E7D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AB58C9351F979F3400A41E7D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB58C91E1F979F3400A41E7D;
+					};
+					AB58C9401F979F3400A41E7D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB58C91E1F979F3400A41E7D;
+					};
+				};
+			};
+			buildConfigurationList = AB58C91A1F979F3300A41E7D /* Build configuration list for PBXProject "SunCalc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB58C9161F979F3300A41E7D;
+			productRefGroup = AB58C9201F979F3400A41E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB58C91E1F979F3400A41E7D /* SunCalc */,
+				AB58C9351F979F3400A41E7D /* SunCalcTests */,
+				AB58C9401F979F3400A41E7D /* SunCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB58C91D1F979F3400A41E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58C9301F979F3400A41E7D /* LaunchScreen.storyboard in Resources */,
+				AB58C92D1F979F3400A41E7D /* Assets.xcassets in Resources */,
+				AB58C9281F979F3400A41E7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58C9341F979F3400A41E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58C93F1F979F3400A41E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB58C91B1F979F3400A41E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58C9251F979F3400A41E7D /* ViewController.swift in Sources */,
+				AB58C92B1F979F3400A41E7D /* SunCalc.xcdatamodeld in Sources */,
+				AB58C9231F979F3400A41E7D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58C9321F979F3400A41E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58C93B1F979F3400A41E7D /* SunCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58C93D1F979F3400A41E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58C9461F979F3400A41E7D /* SunCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB58C9381F979F3400A41E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB58C91E1F979F3400A41E7D /* SunCalc */;
+			targetProxy = AB58C9371F979F3400A41E7D /* PBXContainerItemProxy */;
+		};
+		AB58C9431F979F3400A41E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB58C91E1F979F3400A41E7D /* SunCalc */;
+			targetProxy = AB58C9421F979F3400A41E7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB58C9261F979F3400A41E7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB58C9271F979F3400A41E7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB58C92E1F979F3400A41E7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB58C92F1F979F3400A41E7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB58C9481F979F3400A41E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB58C9491F979F3400A41E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB58C94B1F979F3400A41E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39RPKLYL48;
+				INFOPLIST_FILE = SunCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DFI.BDKCreate.SunCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB58C94C1F979F3400A41E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39RPKLYL48;
+				INFOPLIST_FILE = SunCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DFI.BDKCreate.SunCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB58C94E1F979F3400A41E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39RPKLYL48;
+				INFOPLIST_FILE = SunCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DFI.BDKCreate.SunCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunCalc.app/SunCalc";
+			};
+			name = Debug;
+		};
+		AB58C94F1F979F3400A41E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39RPKLYL48;
+				INFOPLIST_FILE = SunCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DFI.BDKCreate.SunCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunCalc.app/SunCalc";
+			};
+			name = Release;
+		};
+		AB58C9511F979F3400A41E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39RPKLYL48;
+				INFOPLIST_FILE = SunCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DFI.BDKCreate.SunCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunCalc;
+			};
+			name = Debug;
+		};
+		AB58C9521F979F3400A41E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39RPKLYL48;
+				INFOPLIST_FILE = SunCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DFI.BDKCreate.SunCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB58C91A1F979F3300A41E7D /* Build configuration list for PBXProject "SunCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58C9481F979F3400A41E7D /* Debug */,
+				AB58C9491F979F3400A41E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58C94A1F979F3400A41E7D /* Build configuration list for PBXNativeTarget "SunCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58C94B1F979F3400A41E7D /* Debug */,
+				AB58C94C1F979F3400A41E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58C94D1F979F3400A41E7D /* Build configuration list for PBXNativeTarget "SunCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58C94E1F979F3400A41E7D /* Debug */,
+				AB58C94F1F979F3400A41E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58C9501F979F3400A41E7D /* Build configuration list for PBXNativeTarget "SunCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58C9511F979F3400A41E7D /* Debug */,
+				AB58C9521F979F3400A41E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB58C9291F979F3400A41E7D /* SunCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB58C92A1F979F3400A41E7D /* SunCalc.xcdatamodel */,
+			);
+			currentVersion = AB58C92A1F979F3400A41E7D /* SunCalc.xcdatamodel */;
+			path = SunCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB58C9171F979F3300A41E7D /* Project object */;
+}
