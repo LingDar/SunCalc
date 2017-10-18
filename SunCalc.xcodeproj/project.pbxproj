@@ -15,6 +15,7 @@
 		AB58C9301F979F3400A41E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58C92E1F979F3400A41E7D /* LaunchScreen.storyboard */; };
 		AB58C93B1F979F3400A41E7D /* SunCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C93A1F979F3400A41E7D /* SunCalcTests.swift */; };
 		AB58C9461F979F3400A41E7D /* SunCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C9451F979F3400A41E7D /* SunCalcUITests.swift */; };
+		AB58C9541F979F5800A41E7D /* SimpleCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58C9531F979F5800A41E7D /* SimpleCalcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AB58C9411F979F3400A41E7D /* SunCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB58C9451F979F3400A41E7D /* SunCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCalcUITests.swift; sourceTree = "<group>"; };
 		AB58C9471F979F3400A41E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58C9531F979F5800A41E7D /* SimpleCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				AB58C9221F979F3400A41E7D /* AppDelegate.swift */,
 				AB58C9241F979F3400A41E7D /* ViewController.swift */,
 				AB58C9261F979F3400A41E7D /* Main.storyboard */,
+				AB58C9531F979F5800A41E7D /* SimpleCalcViewController.swift */,
 				AB58C92C1F979F3400A41E7D /* Assets.xcassets */,
 				AB58C92E1F979F3400A41E7D /* LaunchScreen.storyboard */,
 				AB58C9311F979F3400A41E7D /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB58C9251F979F3400A41E7D /* ViewController.swift in Sources */,
+				AB58C9541F979F5800A41E7D /* SimpleCalcViewController.swift in Sources */,
 				AB58C92B1F979F3400A41E7D /* SunCalc.xcdatamodeld in Sources */,
 				AB58C9231F979F3400A41E7D /* AppDelegate.swift in Sources */,
 			);
